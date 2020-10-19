@@ -47,7 +47,7 @@ client.on('message', (message) => {
       .addField('역할', '방장, 고민상담사', true)
       .addField('대표 부방장', '기타 두둥등장', true)
       .addField('대표 고민상담사 ', 'Equal 두둥등장 ', true)
-      .addField('일러스트레이터', '쑤_\n\n\n')
+      .addField('일러스트레이터', '쑤_유일한 일러스트레이터\n\n\n')
       .addBlankField()
       .setTimestamp()
       .setFooter('기타 두둥등장', img)
