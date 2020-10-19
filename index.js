@@ -47,7 +47,7 @@ client.on('message', (message) => {
       .addField('역할', '방장, 고민상담사', true)
       .addField('대표 부방장', '기타 두둥등장', true)
       .addField('대표 고민상담사 ', 'Equal 두둥등장 ', true)
-      .addField('개발자', 'Equal 두둥등장\n기타 두둥등장\nUsFi٭ＧＲＩ\n')
+      .addField('일러스트레이터', '쑤_\n\n\n')
       .addBlankField()
       .setTimestamp()
       .setFooter('기타 두둥등장', img)
@@ -60,6 +60,7 @@ client.on('message', (message) => {
       {name: '부방장 대표', desc: '기타 두둥등장'},
       {name: '시스템관리자', desc: 'UsFi٭ＧＲＩ'},
       {name: '고민상담사', desc: '개미 두둥등장'},
+      {name: '일러스트레이터', desc: '쑤_'},
     ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
