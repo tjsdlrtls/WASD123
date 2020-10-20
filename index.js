@@ -62,7 +62,7 @@ client.on('message', (message) => {
         {name: '!전체공지', desc: 'dm으로 전체 공지 보내기'},
         {name: '!전체공지2', desc: 'dm으로 전체 embed 형식으로 공지 보내기'},
         {name: '!청소', desc: '텍스트 지움'},
-        {name: '!초대코드', desc: '해당 채널의 초대 코드 표기'},
+        {name: '!초대코드1', desc: '해당 채널의 초대 코드 표기'},
         {name: '!초대코드2', desc: '봇이 들어가있는 모든 채널의 초대 코드 표기'},
       ];
     message.channel.send(embed)
