@@ -52,7 +52,7 @@ client.on('message', (message) => {
       .setTimestamp()
       .setFooter('기타 두둥등장', img)
 
-      message.channel.send(핑)
+      message.channel.send(서버핑)
     } else if(message.content == '!help') {
       let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
       let commandList = [
